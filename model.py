@@ -1,9 +1,10 @@
 import torch
 from torch import nn
-from .resnet import *
+from resnet import *
 
 class multi_prediction(nn.Module):
     def __int__(self):
+        super().__init__()
         self.backbone = resnet34(pretrained=True)
 
     def forward(self, img):
