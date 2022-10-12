@@ -8,7 +8,7 @@ from torchvision import transforms
 from typing import Tuple, Dict, List
 
 if __name__ == '__main__':
-    train_dir = "/mnt/disk02/carla_lb2/lane_change_data/ConstructionObstacle/"
+
 
     # Setup path for target directory
     target_directory = train_dir
